@@ -1,0 +1,9 @@
+@import "./variables";
+
+.page-container {
+  &__container {
+    max-width: $max-width;
+    margin: $page-margin-top auto;
+    font-family: $common-font;
+  }
+}
